@@ -1,11 +1,17 @@
+import { createContext } from "react";
 import GrandPa from "./GrandPa";
+
+export const AssetContext = createContext("");
 
 const FamilyTree = () => {
   const asset = "diamond";
+  const newAsset = "gold";
   return (
     <div className="border-8 mt-20 p-4 border-success">
       <h2 className="text-4xl font-bold">Family Tree</h2>
-      <GrandPa asset={asset} />
+      <AssetContext.Provider value={newAsset}>
+        <GrandPa asset={asset} />
+      </AssetContext.Provider>
     </div>
   );
 };
