@@ -31,7 +31,7 @@ function App() {
     // <div>
     //   <CustomHookForm />
     // </div>
-    <div>
+    <div className="mx-auto">
       <ProductManagement />
     </div>
   );
