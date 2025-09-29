@@ -33,4 +33,9 @@ export default Form;
     console.log(formData.get("name"));
     console.log(formData.get("email"));
   }; formData.get(name of the input field)
+3. controlled component. one per each field. use state on change of the field. dynamically handle error
+4. handle all controlled field on one state i=object
+  const [formData, setFomData] = useState({
+          name: '', password: ''})
+5. uncontrolled using useRef use when we don't want the value dynamically and we want only after submit
 */
