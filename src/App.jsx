@@ -6,6 +6,7 @@ import FormAction from "./components/Form/FormAction";
 import FormRef from "./components/Form/FormRef";
 import HookForm from "./components/Form/HookForm";
 import UncontrolledField from "./components/Form/UncontrolledField";
+import ProductManagement from "./components/ProductManagement/ProductManagement";
 
 function App() {
   return (
@@ -27,8 +28,11 @@ function App() {
     // <div>
     //   <FormRef />
     // </div>
+    // <div>
+    //   <CustomHookForm />
+    // </div>
     <div>
-      <CustomHookForm />
+      <ProductManagement />
     </div>
   );
 }

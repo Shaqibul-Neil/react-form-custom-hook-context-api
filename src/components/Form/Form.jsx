@@ -38,4 +38,5 @@ export default Form;
   const [formData, setFomData] = useState({
           name: '', password: ''})
 5. uncontrolled using useRef use when we don't want the value dynamically and we want only after submit
+6. create custom hooks
 */
