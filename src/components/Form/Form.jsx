@@ -29,4 +29,8 @@ export default Form;
 
 /*
 1. e.target.[name of the input field].value
+2. use form action and formdata in the action handler.  <form action={handleFormAction}> const handleFormAction = (formData) => {
+    console.log(formData.get("name"));
+    console.log(formData.get("email"));
+  }; formData.get(name of the input field)
 */
